@@ -1,0 +1,20 @@
+ function obj=createInterpStruct(Pmat,Tmat,nVals)
+    obj = {};
+    obj.maxVal = [max(Pmat(:,1)),max(Pmat(:,2))];
+    obj.minVal = [min(Pmat(:,1)),min(Pmat(:,2))];
+    [obj.orderNS,obj.indiceNS] = sort(Pmat(:,1));
+    [obj.orderEW,obj.indiceEW] = sort(Pmat(:,2));
+    obj.pointsN = zeros([size(Pmat,1),1]);
+    obj.pointsE = zeros([size(Pmat,1),1]);
+    obj.trianglesN = zeros(size(Tmat));
+    obj.trianglesE = zeros(size(Tmat));
+    obj.lastQuery = [(obj.minVal(1)+obj.maxVal(1))/2,(obj.minVal(2)+obj.maxVal(2))/2];
+    obj.indexN = closest_value(obj.orderNS,(obj.minVal(1)+obj.maxVal(1))/2);
+    obj.indexE = closest_value(obj.orderEW,(obj.minVal(2)+obj.maxVal(2))/2);
+    obj.pointsN(obj.indiceNS(obj.indexN:end)) = 1;
+    obj.pointsE(obj.indiceEW(obj.indexE:end)) = 1;
+    obj.properT = zeros([size(Tmat,1),1]);
+    obj.P = Pmat;
+    obj.T = Tmat;
+    obj.nodeVals = nVals;
+ end

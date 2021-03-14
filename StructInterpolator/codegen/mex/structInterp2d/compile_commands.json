@@ -1,0 +1,74 @@
+[
+  {
+    "directory": "/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator/codegen/mex/structInterp2d",
+    "command": "/usr/bin/gcc -fexceptions -fPIC -fno-omit-frame-pointer -pthread -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator\" -I \"./interface\" -I \"/usr/local/MATLAB/R2020b/extern/include\" -I \".\" -DMODEL=structInterp2d_mex -c  structInterp2d_data.c -o build/glnxa64/structInterp2d_data.o",
+    "file": "structInterp2d_data.c",
+    "output": "build/glnxa64/structInterp2d_data.o"
+  },
+  {
+    "directory": "/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator/codegen/mex/structInterp2d",
+    "command": "/usr/bin/gcc -fexceptions -fPIC -fno-omit-frame-pointer -pthread -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator\" -I \"./interface\" -I \"/usr/local/MATLAB/R2020b/extern/include\" -I \".\" -DMODEL=structInterp2d_mex -c  rt_nonfinite.c -o build/glnxa64/rt_nonfinite.o",
+    "file": "rt_nonfinite.c",
+    "output": "build/glnxa64/rt_nonfinite.o"
+  },
+  {
+    "directory": "/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator/codegen/mex/structInterp2d",
+    "command": "/usr/bin/gcc -fexceptions -fPIC -fno-omit-frame-pointer -pthread -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator\" -I \"./interface\" -I \"/usr/local/MATLAB/R2020b/extern/include\" -I \".\" -DMODEL=structInterp2d_mex -c  structInterp2d_initialize.c -o build/glnxa64/structInterp2d_initialize.o",
+    "file": "structInterp2d_initialize.c",
+    "output": "build/glnxa64/structInterp2d_initialize.o"
+  },
+  {
+    "directory": "/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator/codegen/mex/structInterp2d",
+    "command": "/usr/bin/gcc -fexceptions -fPIC -fno-omit-frame-pointer -pthread -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator\" -I \"./interface\" -I \"/usr/local/MATLAB/R2020b/extern/include\" -I \".\" -DMODEL=structInterp2d_mex -c  structInterp2d_terminate.c -o build/glnxa64/structInterp2d_terminate.o",
+    "file": "structInterp2d_terminate.c",
+    "output": "build/glnxa64/structInterp2d_terminate.o"
+  },
+  {
+    "directory": "/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator/codegen/mex/structInterp2d",
+    "command": "/usr/bin/gcc -fexceptions -fPIC -fno-omit-frame-pointer -pthread -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator\" -I \"./interface\" -I \"/usr/local/MATLAB/R2020b/extern/include\" -I \".\" -DMODEL=structInterp2d_mex -c  structInterp2d.c -o build/glnxa64/structInterp2d.o",
+    "file": "structInterp2d.c",
+    "output": "build/glnxa64/structInterp2d.o"
+  },
+  {
+    "directory": "/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator/codegen/mex/structInterp2d",
+    "command": "/usr/bin/gcc -fexceptions -fPIC -fno-omit-frame-pointer -pthread -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator\" -I \"./interface\" -I \"/usr/local/MATLAB/R2020b/extern/include\" -I \".\" -DMODEL=structInterp2d_mex -c  closest_value.c -o build/glnxa64/closest_value.o",
+    "file": "closest_value.c",
+    "output": "build/glnxa64/closest_value.o"
+  },
+  {
+    "directory": "/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator/codegen/mex/structInterp2d",
+    "command": "/usr/bin/gcc -fexceptions -fPIC -fno-omit-frame-pointer -pthread -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator\" -I \"./interface\" -I \"/usr/local/MATLAB/R2020b/extern/include\" -I \".\" -DMODEL=structInterp2d_mex -c  dot.c -o build/glnxa64/dot.o",
+    "file": "dot.c",
+    "output": "build/glnxa64/dot.o"
+  },
+  {
+    "directory": "/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator/codegen/mex/structInterp2d",
+    "command": "/usr/bin/gcc -fexceptions -fPIC -fno-omit-frame-pointer -pthread -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator\" -I \"./interface\" -I \"/usr/local/MATLAB/R2020b/extern/include\" -I \".\" -DMODEL=structInterp2d_mex -c  interface/_coder_structInterp2d_api.c -o build/glnxa64/_coder_structInterp2d_api.o",
+    "file": "interface/_coder_structInterp2d_api.c",
+    "output": "build/glnxa64/_coder_structInterp2d_api.o"
+  },
+  {
+    "directory": "/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator/codegen/mex/structInterp2d",
+    "command": "/usr/bin/gcc -fexceptions -fPIC -fno-omit-frame-pointer -pthread -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator\" -I \"./interface\" -I \"/usr/local/MATLAB/R2020b/extern/include\" -I \".\" -DMODEL=structInterp2d_mex -c  interface/_coder_structInterp2d_mex.c -o build/glnxa64/_coder_structInterp2d_mex.o",
+    "file": "interface/_coder_structInterp2d_mex.c",
+    "output": "build/glnxa64/_coder_structInterp2d_mex.o"
+  },
+  {
+    "directory": "/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator/codegen/mex/structInterp2d",
+    "command": "/usr/bin/gcc -fexceptions -fPIC -fno-omit-frame-pointer -pthread -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator\" -I \"./interface\" -I \"/usr/local/MATLAB/R2020b/extern/include\" -I \".\" -DMODEL=structInterp2d_mex -c  structInterp2d_emxutil.c -o build/glnxa64/structInterp2d_emxutil.o",
+    "file": "structInterp2d_emxutil.c",
+    "output": "build/glnxa64/structInterp2d_emxutil.o"
+  },
+  {
+    "directory": "/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator/codegen/mex/structInterp2d",
+    "command": "/usr/bin/gcc -fexceptions -fPIC -fno-omit-frame-pointer -pthread -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator\" -I \"./interface\" -I \"/usr/local/MATLAB/R2020b/extern/include\" -I \".\" -DMODEL=structInterp2d_mex -c  interface/_coder_structInterp2d_info.c -o build/glnxa64/_coder_structInterp2d_info.o",
+    "file": "interface/_coder_structInterp2d_info.c",
+    "output": "build/glnxa64/_coder_structInterp2d_info.o"
+  },
+  {
+    "directory": "/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator/codegen/mex/structInterp2d",
+    "command": "/usr/bin/gcc -fexceptions -fPIC -fno-omit-frame-pointer -pthread -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -std=c99 -I \".\" -I \"/home/janukan/CapstoneWinter/interpolation/ELPSEinterp/StructInterpolator\" -I \"./interface\" -I \"/usr/local/MATLAB/R2020b/extern/include\" -I \".\" -DMODEL=structInterp2d_mex -c  /usr/local/MATLAB/R2020b/extern/version/c_mexapi_version.c -o build/glnxa64/c_mexapi_version.o",
+    "file": "/usr/local/MATLAB/R2020b/extern/version/c_mexapi_version.c",
+    "output": "build/glnxa64/c_mexapi_version.o"
+  }
+]
